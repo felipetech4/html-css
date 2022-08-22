@@ -1,0 +1,31 @@
+<> TAG/MARCA
+
+Dentro do código html só existem 2 partes:
+
+<head> 
+    -> a parte de configurações do seu site
+</head>
+
+<body>
+    -> a parte do conteúdo do seu site
+</body>
+
+Fora das duas partes:
+<!DOCTYPE html> -> usa sempre a versão atualizada do html
+
+<html lang ="pt-br"> -> indica a linguagem do código html
+
+Dentro da head:
+<meta charset="UTF-8"> -> é um padrão de codificação de caracteres que suporta acentuação
+
+<meta name ="width=device-width, initial-scale=1.0" -> indica que o seu site vai ocupar 100% da tela disponível dada pelo navegador
+
+<title>Meu primeiro exercício</title> -> indica o título do seu site, fica vísivel na aba de janelas do navegador
+
+Dentro do body:
+<h1> </h1> -> indica um título
+
+<hr> -> desenha uma linha horizontal
+
+<p> </p> -> indica um parágrafo
+

@@ -1,0 +1,28 @@
+Todo elemento de HTML está dentro de uma caixa, quando uma tag está dentro de outra tag chamamos de ANINHAMENTO DE CAIXA.
+
+As caixas possuem 2 medidas:
+Altura - height
+Largura - width
+
+É possível colocar borda na caixa com a Propriedade: border
+
+Para deixar a borda distante do conteúdo eu uso a Propriedade: padding
+
+Para espaçar a caixa externamente eu uso a Propriedade: margin
+
+** -> Da borda pra dentro, eu chamo de padding, da borda pra fora, eu chamo de margin.
+
+Para adicionar um contorno da borda eu uso a Propriedade: outline
+
+Todas essas Propriedades formam a anatomia das Caixas.
+
+Existem 2 tipos de Caixa:
+box-level ->    Funciona como um parágrafo
+		Sempre quebra a linha anterior antes de começar, e ao finalizar também quebra para a próxima linha
+		Ocupa a largura da tela
+		Ex: **Tags: div, h1-h6, p, main, header, nav, article, aside, footer, form, video**
+
+inline level -> Não quebra linha nem ao começar nem ao finalizar
+		Ocupa exatamente o espaço que o conteúdo precisa, economizando espaço na tela
+		Ex: **Tag span, a, code, small, strong, em, sup-sub, label, button, input, select**
+

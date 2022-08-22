@@ -1,0 +1,81 @@
+Propriedades:
+    height: altura + px;
+        ex: height: 200px;
+    width: largura + px;
+        ex: width: 100px;
+    border: tamanho da borda + px + tipo + cor; (tudo sem vírgula)
+        ex: border: 1px solid black;
+
+Pseudo-classes -> É representada em CSS com : (2 pontos)
+    Representa o estado atual de um determinado elemento (se ele ta vazio, ativo, habilitado, etc)
+
+Valor de uma Pseudo-classe:
+    hover -> Quando a gente passa o mouse por cima e aparece uma interação
+
+Para personalizar tags dentro de outras tags específicas dizemos ao CSS assim:
+    tag1 > tag2 {
+
+    }
+        Dessa maneira estou dizendo que a tag2 que está dentro da tag1 vai receber as modificações dentro do seletor
+
+Declaração CSS:
+    display: none
+        Esconde a tag do seletor
+
+    display: block
+        Mostra a tag do seletor escondido (para isso tem que usar o mesmo seletor acrescentado do Pseudo-classe :hover)
+            ex:
+                div > p {
+                    display: none;
+                }
+
+                div:hover > p {
+                    display: block;
+                }
+
+            Esse código ta dizendo que a tag div é pai de p, e que todo p dentro de div vai ser escondido, depois no outro seletor ta dizendo que qualquer div pai de p vai mostrar os filhos/p quando o mouse for passado por cima da div.
+
+            Simplificando, quando uso > estou dizendo ao CSS que a tag da esquerda é o pai, e a da direita é o filho, e o seletor vai personalizar o filho.
+
+LINKS:
+    Por padrão links ficam azul ou roxo e sublinhados, mas podemos editar isso também:
+
+    Podemos mudar a cor normalmente em CSS, adicionando um seletor a{} e colocando a Declaração color: cor desejada;
+
+    Podemos tirar o sublinhado do link com a Declaração:
+        text-decoration: none;
+
+    Podemos deixar o link em negrito com a Declaração:
+        font-weight: bold;
+
+    Podemos colocar o sublinhado no link com a Declaração:
+        text-decoration: underline;
+
+    Também podemos usar Pseudo-classes específicas:
+        a:visited{} -> para links que ja foram visitados
+
+        a:hover{} -> para personalizar quando passar o mouse por cima do links
+
+        a:active{} -> para personalizar quando um link é clicado
+
+        entre outras Pseudo-classes
+
+Pseudo-elemento -> É representado em CSS com :: (4 pontos)
+    Adiciona elementos no conteúdo sem precisar usar o HTML
+
+    Declaração:
+        content: 'o que deseja incluir no conteúdo'; -> inclui elemento no conteúdo
+
+    Pseudo-elemento:
+        ::after -> adiciona elemento depois do conteúdo da tag do seletor
+
+        ::before -> adiciona elemento antes do conteúdo da tag do seletor
+
+
+    RECAPITULANDO OS SELETORES PERSONALIZADOS:
+        # -> id
+        . -> classe
+        : -> Pseudo-classe
+        :: -> Pseudo-elemento
+        > -> Children/quando é pai e filho
+

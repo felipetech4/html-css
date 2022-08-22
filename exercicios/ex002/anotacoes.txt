@@ -1,0 +1,23 @@
+<br> -> quebra a linha
+
+&lt; -> mostrar o colchete angular (aberto) no site
+
+&gt; -> mostrar o colchete angular (fechado) no site
+
+Símbolos:
+    &reg;
+    &copy;
+    &trade;
+    &euro;
+    &pound;
+    &yen;
+    &cent;
+    &Delta;
+    &uparrow;
+    &uarr;
+
+Comentário:
+<!-->
+
+Emoji:
+&#x + o código do emoji (emojipedia)

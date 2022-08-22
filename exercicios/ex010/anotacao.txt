@@ -1,0 +1,42 @@
+Tag de Âncora:
+    <a></a>
+        É a tag que cria um hyperlink (link)
+
+Parâmetro:
+    href
+        Indica a URL do link
+
+Parâmetro
+    target
+        Indica se em qual aba do navegador o link será aberto, os valores mais usados são:
+            _blank -> Abre em uma nova aba em branco
+            _selfie -> Abre na mesma aba, descartando o conteúdo atual.
+
+Parâmetro:
+    rel
+        Indica a direção do link, alguns valores são:
+            author -> o autor do conteúdo do link
+            Links Internos:
+                prev -> anterior
+                next -> próximo
+            Links Externos:
+                external -> um site fora do site atual
+                nofollow -> link privado
+
+Para links internos é necessário todos os documentos estarem na mesma pasta.
+    Para colocar um link de uma subpasta, basta colocar o nome da pasta/o nome do documento no valor do Parâmetro href
+
+    Quando o cliente quiser retornar ao link de uma pasta anterior basta colocar ../nome do doc no valor do Parâmetro href
+
+Parâmetro:
+    download
+        Para fazer downloads do navegador para a máquina do cliente
+        Tem que ser inserido depois do href
+        O valor é o nome do documento
+
+Parâmetro:
+    type
+        Para dizer o formato do documento a ser baixado
+        Ver a lista completa dos Media Types em:
+            https://www.iana.org/assignments/media-types/media-types.xhtml
+

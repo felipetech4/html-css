@@ -1,0 +1,22 @@
+Para alinhar uma fonte eu uso uma Declaração chamada:
+    text-align: o valor é a posição do alinhamento
+
+Existem 4 tipos de Alinhamento:
+    Alinhamento a esquerda (padrão):
+        left;
+
+    Alinhamento a direita:
+        right;
+
+    Alinhamento centralizado:
+        center;
+
+    Alinhamento a esquerda e a direita:
+        justify;
+
+    text-align: left ou center ou right ou justify
+
+    OBS: Essa declaração vai estar dentro de um seletor CSS
+
+    Declaração CSS:
+        text-indent: valor em numero + px -> usado para fazer o papel da tecla TAB no site (muito útil na style interna, pois modifca todos os parágrafos dentro do seletor escolhido)

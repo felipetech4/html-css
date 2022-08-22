@@ -1,0 +1,53 @@
+Todas as cores são formadas por 3 cores primárias:
+    R -> Vermelho
+    G -> Verde
+    B -> Azul
+
+Nas CSS podemos representar as cores de 4 formas:
+    1-> Por NOMES (em ingês)
+        No valor de cada parâmetro insira o nome em inglês da cor exata(existe um limite de cores nesse formato de representação)
+
+    2-> Por CÓDIGOS HEXADECIMAIS(de 0 a f)
+     No valor de cada parâmetro inserir um # e mais 6 algarismos:
+        Os primeiros 2 algarismos representa a cor -> VERMELHA
+        Os 2 algarismos do meio representa a cor   -> VERDE
+        Os últimos 2 algarismos representa a cor   -> AZU
+
+    3-> Pela própria sigla rgb (red, green, blue)
+        No valor de cada parâmetro insira a rgb(o número de até 3 dígitos da cor vermelha, da cor verde, da cor azul (é obrigatório usar números e vírgulas))
+
+    4->  Pela sigla hsl (hue/matiz, saturation/saturação, lightness/luminância)
+        No valor de cada parâmetro insira hsl(o número da matiz com até 3 dígitos, a porcentagem da saturação, a porcentagem da luminância)
+
+OBS: **No VSCODE A maneira mais fácil de escolher as cores é simplesmente usando a PRIMEIRA FORMA, e logo após passar o cursor em cima da cor para definir o RGB automaticamente.**
+
+OBS: **Para trocar o formato de cor basta passar o cursor em cima da cor e clicar na numeração da cor que fica dentro da janela flutuante.**
+
+OBS: **Na janela flutuante da cor, eu consigo mexer no tom, na transparência e na cor, respectivamente.**
+
+OBS: **Ao editar a transparência da cor, o formato ganha um A no final : rgba, hsla)**
+
+    Parâmetro CSS:
+        background-image -> Usado para criar uma cor com mais de uma tonalidade
+
+    Pode receber os valores:
+        linear-gradient(to right, primeira cor em inglês, segunda cor em inglês) -> Para criar uma cor gradiente (o to right significa que o gradiente começará da direita/no lugar dele pode ser usado um número e em seguida deg indicando a posição do gradiente em graus)
+        OBS: No lugar do to right também pode usar to left(pra esquerda), to top(pra cima), to bottom(pra baixo)
+
+        radial-gradient(circle, cor em inglês, cor em inglês) -> Para criar uma cor em gradiente porém em formato de círculo
+
+        Podemos definir o tamanho das cores adicionando uma um valor em porcentagem ao lado da cor desejada.
+
+    Parâmetro CSS:
+        background-attachment -> determina se aquela posição da imagem é fixa com o viewport, ou se irá rolar juntamente com o seu bloco.
+    Pode receber os valores:
+        local
+        scroll
+        fixed
+
+CONFIGURAÇÃO GLOBAL DAS CSS:
+    Seletor especial:
+        * {
+
+            }
+

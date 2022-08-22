@@ -1,0 +1,9 @@
+Existem 3 métodos para trabalharmos com as CSS
+    2 -> Estilos Locais / Internos
+    Esse estilo é aplicado através de seletores{} dentro da parte head do documento
+    Cada seletor representa uma tag (se houver uma mesma tag no documento o seletor vai representar todas as tags iguais)
+
+    Estilo interno é melhor do que o estilo inline, porém tem 2 problemas:
+       -> Ocupa muita linha (muitas vezes mais linhas do que o conteúdo)
+       -> Personaliza somente um documento/pagina
+

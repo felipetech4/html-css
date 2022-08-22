@@ -1,0 +1,27 @@
+Tag:
+    <ol><li></li></ol>
+        Lista ordenada (com numeração)
+    Também podemos mudar o tipo de marcador da lista:
+        Parâmetro type em <ol> com os possíveis valores:
+            1 -> Ordem numérica
+            A -> Ordem alfabética MAIÚSCULA
+            a -> Ordem alfabética minúscula
+            I -> Números romananos MAIÚSCULA
+            i -> Números romananos minúscula
+
+    Também podemos começar a lista da posição que quisermos:
+        Parâmetro start em <ol> com o valor da posição inical desejada (independente do type, inserir sempre um valor numérico)
+
+Tag:
+    <ul><li></li></ul>
+        Lista não ordenada (não tem contagem, só um marcador simples)
+    Também podemos mudar o tipo de marcador da lista:
+        Parâmetro type em <ol> com os possíveis valores
+            disc -> bolinha preta preenchida (padrão)
+            circle -> bolinha sem preenchimento
+            square -> quadradinho preenchido
+
+Tag:
+    <dl><dt></dt><dd></dd></dl>
+        Lista de Definição
+        Indica um Termo (dt) e uma Definição(dd)

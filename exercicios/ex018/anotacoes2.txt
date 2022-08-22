@@ -1,0 +1,10 @@
+Identificando Fontes através de textos:
+ Baixar a extensão do Chrome - Fonts Ninja e ser feliz!
+
+Identificando Fontes através de imagens:
+ Através de sites específicos(não é tão preciso quanto o Fonts Ninja):
+    3 OPÇÕES:
+        whatfontis.com (o mais recomendado)
+        fontsquirrel.com
+        myfonts.com
+

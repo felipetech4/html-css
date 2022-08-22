@@ -1,0 +1,23 @@
+Começamos a estudar as CSS:
+Existem 3 métodos para trabalharmos com as CSS
+    1 -> Estilos Inline (o menos indicado pois polui/mistura o seu código)
+        Usado para pequenas personalizações
+        Nele você adiciona o estilo (style) dentro da própria tag de onde quer personalizar
+
+        Cores:
+        Na tag body adicionamos style="background-color:escreva aqui a cor desejada (em inglês);" -> para adicionarmos uma cor de fundo do site
+        Podemos também trocar as cores de títulos e parágrafos adicionando style="color:cor em inglês aqui;"
+
+        Fontes:
+        style="font-family:nome da fonte desejada aqui;"
+
+        Alinhamento de texto:
+        style="text-align: justify;"
+
+        Tamanho da fonte:
+        style="font-size: numero do tamanho da fonte desejado aqui + px no final"
+
+        **background-color é para cor de fundo do texto**
+        **color é para cor do texto**
+
+OBS: O ideal é sempre separar as CSS da HTML

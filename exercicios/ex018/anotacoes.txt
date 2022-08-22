@@ -1,0 +1,25 @@
+As regras @ tem que estarem em CSS na primeira linha do documento, e em HTML na primeira linha da tag style, e não pode estar dentro de nenhum seletor.
+
+Para pegar uma fonte da internet basta usar o Site Google Fonts, escolher a fonte, adicionar a opção, copiar o código CSS e colar o import no style na primeira linha sem seletores
+
+Relembrando -> Conjunto de Propriedades e Valores são Declarações
+
+Não usar mais de 4 fontes dentro do site.
+
+Podemos usar uma fonte específica, ou não encontrada no Google Fontes, usando fontes externas baixadas:
+    OBS -> Analisar todos os glifos da fonte, pois algumas delas não possuem letras acentuadas, letras minúsculas, ou algo do tipo.
+
+    Formatos de fonte:
+        -> otf -> usar format(opentype)
+        -> ttf -> usar format(truetype)
+        -> e as vezes podemos ter fontes com os formatos de cima, porém com outro format(), por isso é sempre bom pesquisar os format() das fontes baixadas
+        -> Outros format() -> embedded-opentype, truetype-aat (Apple Avanced Typography), svg
+
+    Baixar a fonte, criar uma pasta chamada fonts dentro da pasta de documentos html a ser trabalhada, adicionar uma @regra em style:
+        @font-face
+            font-family:'O nome pode ser qualquer coisa aqui'; -> atenção não esquecer do ''
+            src: url('pasta da fonte/nome e formato exatamente igual ao da fonte baixada') format(tipo de formato citados a cima) -> pode adicionar mais de um url e format caso a fonte tenha mais de um formato disponível (se adicionar mais um url é necessário colocar uma vírgula antes de url)
+
+            OBS -> Colocar font-weight: normal; para o navegador não colocar nenhum negrito automático
+
+            Depois de fazer toda a regra font-face, adicionar o nome que eu escolhi em font-family(da regra) no font-family do seletor desejado 

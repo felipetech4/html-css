@@ -1,0 +1,19 @@
+O documento style.css é criado a partir da tag link css passando o curso dentro do valor do parâmetro href + segurando a tecla ctrl + clicando em cima do valor
+
+A primeira coisa a se fazer dentro do documento é criar a regra (@) charset "UTF-8" que garante a identificação de acentuação gráfica
+
+Depois disso é só usar os seletores css para fazer as personalizações desejadas
+
+Seletor *{} -> faz alterações em todos os elementos em uma página.
+
+Seletor body{} -> faz alterações no corpo da página
+
+Seletor main{} -> configura uma parte principal da página
+
+Seletor h1{} -> configura todos os Títulos Principais da página
+
+Seletor h2{} -> configura todos os subtítulos da página
+
+Seletor p{} -> configura todos os parágrafos da página
+
+**************FALTA FALAR DOS ATRIBUTOS DOS SELETORES**************

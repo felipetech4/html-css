@@ -1,0 +1,26 @@
+Existem 3 métodos para trabalharmos com as CSS
+    3 -> Estilos Externos
+    É aplicado através de uma tag no head chamada link:css + um novo documento com formato css (normalmente o nome do documento é chamado de style.css)
+    Nesse novo documento colocamos os seletores, como no estilo interno, porém adicionamos na primeira linha uma regra:
+        @charset "UTF-8" -> usada para possíveis acentuações
+        Toda regra css é indicado por um @
+
+    Sempre que quiser um novo documento com o estilo do documento style.css é só colocar a tag link:css no documento que quer personalizar
+
+    Também posso adiconar mais de uma tag link:css no mesmo documento (as css vão se complementar no mesmo documento) o nome dos documentos css tem que ser diferentes obviamente
+
+    Tamém posso adicionar mais de um estilo no mesmo documento, como por exemplo o estilo externo + o estilo interno + o estilo inline
+
+    Sublinhar texto:
+    "text-decoration: underline;"
+
+    Texto a direita:
+    "text-align:right;"
+
+OBS: Sempre vai ter prefência na personalização para o computador:
+1 -> inline
+2 -> interno
+3 -> externo
+
+    PORÉM A PREFERÊNCIA PARA APLICAR É O INVERSO DISSO. ENTRE OS TRÊS USAR SEMPRE O EXTERNO
+

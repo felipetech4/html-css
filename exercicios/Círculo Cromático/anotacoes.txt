@@ -1,0 +1,84 @@
+Círculo Cromático -> Representador de cores, muito útil para HARMONIZAR as cores.
+
+Dentro do círculo cromático existem cores PRIMÁRIAS, SECUNDÁRIAS e TERCIARIAS:
+	CORES PRIMÁRIAS -> VERMELHO, AMARELO e AZUL
+	
+	CORES SECUNDÁRIAS -> LARANJA, ROXO e VERDE
+
+	CORES TERCIÁRIAS -> Toda cor TERCIÁRIA está ENTRE UMA COR SECUNDÁRIA e UMA COR PRIMÁRIA (toda cor TERCIÁRIA é nomeada pelo nome da cor PRIMÁRIA e em seguida (depois de um hífen) pelo nome da cor SECUNDÁRIA.)
+		ex: AMARELO-ESVERDEADO
+		    AMARELO-ALARANJADO
+		    VERMELHO-ALARANJADO
+		    VERMELHO-ARROXEADO
+		    AZUL-ARROXEADO
+		    AZUL-ESVERDEADO
+
+Também no CÍRCULO CROMÁTICO podemos definir as cores pela temperatura (frias e quentes):
+	Dividir o círculo no meio: A primeira divisão começa entre o AMARELO(primário) e o AMARELO-ESVERDEADO(terciário) e a divisão termina entre o ROXO(secundário) e o VERMELHO-ARROXEADO.
+	Tudo que estiver do LADO ESQUERDO são cores FRIAS:
+		AMARELO-ERVERDEADO
+		VERDE
+		AZUL-ESVERDEADO
+		AZUL
+		AZUL-ARROXEADO
+		ROXO
+	Tudo que estiver do LADO DIREITO são cores QUENTES
+		AMARELO
+		AMARELO-ALARANJADO
+		LARANJA
+		VERMELHO-ALARANJADO
+		VERMELHO
+		VERMELHO-ARROXEADO
+	OBS: Essas cores criam uma HARMONIA ENTRE ELAS
+
+Classificações buscando HARMONIA:
+
+CORES COMPLEMENTARES:
+	São as cores que tem MAIS CONTRASTES ENTRE SI (se eu quero saber qual a cor que mais contrasta com outra cor eu utilizo a classificação das CORES COMPLEMENTARES)
+	As cores OPOSTAS no CÍRCULO CROMÁTICO ex: AMARELO e ROXO
+						  VERMELHO-ALARANJADO e AZUL-ESVERDEADO
+						  VERMELHO e VERDE
+						  AZUL e LARANJA
+
+CORES ANÁLOGAS:
+	São as cores vizinhas entre si, possuem mais HARMONIA ex: ROXO, VERMELHO-ARROXEADO e AZUL-ARROXEADO
+								  AMARELO, AMARELO-ALARANJADO e AMARELO-ESVERDEADO
+								  LARANJA, AMARELO-ALARANJADO e VERMELHO-ALARANJADO
+
+CORES ANÁLOGAS E UMA COMPLEMENTAR:
+	Como o nome já diz é composta pelas cores ANÁLOGAS(vizinhas) e uma cor COMPLEMENTAR(oposta)
+	Usada quando preciso de uma harmonia junto de um contraste, quando quero uma mistura sem perder a harmonia.
+	ex: ROXO, VERMELHO-ARROXEADO, AZUL-ARROXEADO e AMARELO
+	    LARANJA, AMARELO-ALARANJADO, VERMELHO-ALARANJADO e AZUL
+ 	OBS: Oberve que nas cores acima usamos 4 cores de uma paleta.(que é exatamente o recomendado em um site)
+
+CORES ANÁLOGAS RELACIONADAS:
+	São 2 cores em sequência e 1 cor pulando a terceira.
+
+CORES INTERCALADAS:
+	Pula sempre a próxima cor, intercalando.
+	Não é muito usual
+
+Dentro das CORES INTERCALADAS existem as
+	CORES TRIÁDICAS:
+	Pula sempre 3 cores, intercalando.
+	
+	CORES EM QUADRADO:
+	Pula sempre 2 cores, intercaladas.
+	Usada para cores FORTES E BEM BALANCEADAS
+
+	CORES EM TETRÁDICAS:
+	São usadas cruzando 2 linhas de cores COMPLEMENTARES.
+
+	CORES EM MONOCROMIA:
+	É usada com apenas 1 cor, porém com vários TONS. (alternando a saturação e a luminância/brilho)
+	
+OBS: Na criação de um site é muito importante a ESCOLHA DA PALETA DE CORES (a paleta sempre parte de uma cor principal)
+
+O RECOMENDADO é utilizar no mínimo 3 e no máximo 5 cores dentro do paleta(desconsiderando o branco e o preto)
+o BRANCO e PRETO SEMPRE vão ser utilizados dentro do SITE(o objetivo é sempre fazer a paleta combinar com o branco e preto, mas dando enfâse na cor principal da paleta).
+No entanto, o MAIS RECOMENDADO É UTILIZAR 4 CORES (desconsiderando o branco e o preto)
+
+Na prática, tenho que analisar qual a cor PRIMÁRIA que o cliente utiliza, para escolher a paleta através dessa cor.
+
+

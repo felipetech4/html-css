@@ -1,0 +1,7 @@
+
+HTML: Significado/Semântica
+    *Ficar de olho nas tags obsoletas (sempre no site oficial - W3C)
+    
+CSS: Estilo/Forma
+
+Saber diferenciar qual a parte trabalhar em HTML e parte a trabalhar em CSS

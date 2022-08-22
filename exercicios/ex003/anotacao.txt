@@ -1,0 +1,26 @@
+<img> utiliza dois parâmetros -> src e alt
+    -> src significa source(fonte) e recebe o valor do endereço da imagem
+    -> alt significa alternative(alternativo) e recebe um nome alternativo ao do endereço da imagem; ajuda a pessoas com deficiência visual, e também ao sistema de busca do google
+
+Existem 3 formas de colocar uma imagem na tag <img>:
+
+-> Com a imagem dentro da mesma pasta que o arquivo principal (index.html)
+    Dentro do valor de src: nome da imagem
+-> Com a imagem em outra pasta
+    Dentro do valor de src: nome de pasta + / + nome da imagem
+-> Com uma imagem da nuvem
+    Dentro do valor de src: URL da imagem
+
+Programa gratuito para edição de imagem (redimensionar/cortar):
+    GIMP
+
+Formatos de imagem para sites:
+    PNG
+    JPG
+
+Sites para imagens sem direitos autorais:
+    Unsplash
+    Pexels
+    Burst
+
+OBS: Recomenda-se sempre deixar a imagem original no repositório, caso precise alterar o tamanho futuramente

@@ -1,0 +1,27 @@
+Tag:
+    <code></code>
+        Indica um texto com linguagem de programação SEM IDENTAÇÃO
+
+Tag:
+    <pre><code></code></pre>
+        Indica um texto com linguagem de programação COM IDENTAÇÃO
+
+Tag:
+    <q></q>
+        Indica uma breve citação ou citação simples (geralmente na mesma linha)
+
+Tag e Parâmetro:
+    <blockquote cite=""></blockquote>
+        Indica uma citação maior, com um deslocamento para a direita e normalmente com quebra de linha.
+
+Tag e Parâmetro:
+    <abbr title="significado aqui">abreviação aqui</abbr>
+        Indica uma abreviação (quando o cliente passa o cursor por cima da abreviação aparece o significado)
+
+Tag e Parâmetro:
+    <bdo dir="">texto aqui</bdo>
+        Indica um texto invertido
+        O valor do dir pode ser:
+            rtl -> da direita para esquerda
+            ltr -> da esquerda para direita
+

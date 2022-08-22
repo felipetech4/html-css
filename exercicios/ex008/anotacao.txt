@@ -1,0 +1,54 @@
+Destaque
+    Tag:
+        <strong></strong>
+        (também pode usar a tag <b></b> porém é uma tag não semântica, somente para forma do texto (negrito))
+
+Ênfase
+    Tag:
+        <em></em>
+        (também pode usar a tag <i></i> porém é uma tag não semântica, somente para forma do texto (itálico))
+
+Atalho para adicionar uma tag em um campo já formatado:
+    Selecionar o conteúdo que vai ficar dentro da TAG
+    CTRL + SHIFT + P ou FN + F1
+    Emment: Wrap With Abbreviation
+    Enter
+    Escrever só as letras da TAG
+    Enter
+
+Marca texto
+    Tag:
+        <mark></mark>
+
+            (para mudar a cor do marca texto usamos CSS pois mudar a cor é forma e não semântica)
+            Dentro da tag MARK adicionamos a palavra style
+            Depois adicionamos um parâmetro CSS no style chamado background-color
+            Depois de background-color: adicionamos a cor que desejarmos (se as opções de cor não aparecer, apertar CTRL+ESPAÇO)
+    
+            Também existe outra forma de mudar a cor do MARK, pois a primeira só muda o atual, e nessa segunda muda todos os MARK'S da página:
+            Dentro do parte do documento <head> adicionamos a TAG <style> e adionamos mark {background-color: ;} </style> </head>
+
+    Tag:
+        <small></small>
+            Para dar sentido a letras/palavras pequenas
+
+    Tag:
+        <del></del>
+            Para indicar que o texto deve ser lido, porém desconsiderado
+
+    Tag:
+        <ins></ins>
+            Para indicar que o texto deve ser lido com ênfase e atenção
+
+    Tag:
+        <u></u>
+            Para indicar o sublinhado sem semântica, somente forma.
+
+    Tag:
+        <sup></sup>
+            Para indicar um texto sobrescrito
+
+    Tag:
+        <sub></sub>
+            Para indicar um texto subscrito
+

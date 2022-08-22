@@ -1,0 +1,33 @@
+Tag: <picture></picture>
+    Informa que vamos adicionar imagens com configurações adicionais
+    Dentro da tag picture adicionamos 2 Tags:
+
+        <img src="caminho da imagem principal" alt="nome alternativo">
+            (img adiciona a imagem que será mostrada na tela)
+
+        <source media="(max-width: tamanho em numero com px no final)" srcset="caminho da imagem alternativa" type="tipo do arquivo com formato">
+            (o source adiciona uma imagem alternativa dizendo que ela aparecerá na tela até chegar no limite do max-width, caso chegue no limite é mostrado na tela a imagem que está abaixo do source atual.)
+
+Tag: <audio></audio>
+    Informa que vamos adicionar um áudio
+    Dentro da tag audio adicionamos até 4 parâmetros:
+        preload -> permite 3 valores:
+            auto -> o arquivo é completamente carregado ao abrir o site (pesa mais para abrir p site)
+            metadata -> só carrega as informações mais simples do arquivo (nome, tempo, etc)
+            none -> não carrega nada do arquivo antes do play do usuário
+
+        autoplay -> assim que o site é carregado o audio toca automaticamente
+        controls -> mostra os botões de intereção do usuário (play, pause, etc)
+        loop -> o audio se reproduz ao chegar ao fim
+
+    Dentro da tag audio adicionamos 3 Tags:
+        <source src="caminho do audio" type="formato e tipo do audio">
+
+        (as outras 2 tags é a de parágrafo e de âncora, informando que o navegador não suporta os formatos de audio e um link para download do arquivo)
+
+        os formatos mais aceitos pelos navegadores são mp3(mpeg), ogg, wav.
+
+        o source mais acima será o primeiro a tentar reproduzir, e consequentemente a tag mais abaixo será a última opcão.
+
+
+

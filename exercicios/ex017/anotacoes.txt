@@ -1,0 +1,56 @@
+Elemento/Propriedade de Parâmetro Style:
+    font-family: 'fonte 1', fonte2, categoria fonte; 
+        -> em família tipográfica só usa ' ' quando for mais de uma palavra
+            ex: font-family: Arial, Helvetica, sans-serif;
+                font-family: 'Courier New', Courier, monospace;
+    
+    OBS-> Os 3 valores de font-family são usados por segurança, se o navegador não tiver uma, tenta a outra automaticamente, por isso na última tentativa é uma categoria de fonte(com um leque maior de alternativas, algo mais genérico)
+    OBS-> Não é obrigatório usar os 3 valores, pode usar só a categoria, ou só o nome da fonte, ou só uma fonte e uma categoria(a categoria é OBRIGATÓRIO, sempre tem que ter independente de quantos valores tiver no elemento), porém o mais recomendado é usar os 3 valores, por segurança.
+
+    Para uma combinação interessante dos 3 valores é recomendado buscar sempre no google
+    site: w3schools.com -> CSS Web Safe Fonts
+
+Elemento/Propriedade de Parâmetro Style:
+    font-size: 16px; -> as medidas possíveis estão comentadas no doc proncipal, no entanto as medidas recomendadas são: px(medida absoluta) e em(medida relativa)
+
+    Esse elemento é utilizado para definir o tamanho da fonte
+    Normalmente é utilizado em sites 16px
+
+    **16px é igual a 1em**
+    O recomendado é utilizar sempre em e px
+
+        CURIOSIDADE: A medida do Word(Microsoft Office) é em pt (pontos)
+    Isso ocorre pq a medida pt é utilizada para impressão
+
+Peso da Fonte é definido pela expessura dos glifos
+Não pode ser usado por fontes simples, como Arial, pois essas fontes só possuem um peso.
+Abaixo a propridedade de peso:
+
+    Propriedade de Parâmetro Style de fonte(Negrito):
+        font-weight: possiveis valores para adicionar aqui;
+            lighter -> o glifo fica mais leve
+            normal -> continua da mesma forma
+            bold -> fica em negrito
+            bolder -> fica mais negrito ainda
+            Ou do número 100 ao 900 (de 100 em 100) -> Tras os mesmos resultados de cima, e outros ainda mais detalhistas
+
+
+    Propriedade de Parâmetro Style de fonte(Itálico):
+        font-style: normal/italic;
+
+    Propriedade de Parâmetro Style de fonte(Sublinhado):
+        text-decoration: underline;
+
+    OBS -> A maioria das fontes não aceitam essas propriedades, porém é uma possibilidade.
+
+    Existe um atalho para esses 4 Parâmetros (font-style font-weight font-size font-family) unidos em apenas um Parâmetro:
+        font: aqui são colocados os 4 valores sem vírgula e na sequência padrão estipulada (font-style font-weight font-size font-family) *sempre nessa ordem*
+            ex:
+                font: italic bolder 3em 'Work Sans', sans-serif;
+
+    OBS -> É possível não declarar um valor e pular pro próximo da sequência padrão, caso não queira personalizar uma parte do glifo.
+            ex:
+                font: bold 2em 'Work Sans', sans-serif;
+
+    Reforçando Ordem: font-style -> font-weight -> font-size -> font-family
+

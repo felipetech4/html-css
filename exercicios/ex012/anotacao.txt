@@ -1,0 +1,29 @@
+Tag:
+    <video></video>
+        Usada para adicionar vídeos do servidor local, aceita 5 parâmetros:
+            Os já conhecidos -> autoplay, controls e loop
+            width -> define o espaço do vídeo na tela
+            poster -> adiciona uma capa ao vídeo, que aparece antes do play inicial
+
+        No corpo da tag video, podemos adicionar 2 tags (ou +):
+        Tag:
+            <source> com 2 parâmetros já conhecidos:
+                src -> para o caminho do vídeo
+                type -> tipo e formato do arquivo
+
+        Tag:
+            <p></p>
+                Um parágrafo para informar possíveis falhas ao carregar o vídeo no navegador
+
+OBS: Na tag video, as tags que estiverem acima serão carregadas primeiro.
+
+Formatos de vídeos mais aceitos: PRIMEIRO: m4v DEPOIS: webm e mp4
+
+Tag:
+    <iframe></iframe>
+        Usado para adicionar vídeos do servidor externo (Youtube, Vimeo, etc.)
+        Essa tag já vem pronta, basta entrar no Youtube (ou outro reprodutor de vídeo online), escolher o vídeo desejado, clicar em compartilhar, escolher a opção INCORPORAR e copiar a tag.
+
+Videos abertos: Youtube(gratuito) e Vimeo(pago)
+Videos fechados: Vimeo(pago)
+

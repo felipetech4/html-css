@@ -1,0 +1,17 @@
+Hierarquia de Títulos:
+Existe somente 6 níveis de títulos:
+    <h1></h1>
+    <h2></h2>
+    <h3></h3>
+    <h4></h4>
+    <h5></h5>
+    <h6></h6>
+
+E é obrigatório seguir essa Hierarquia.
+
+Os tamanhos nós definimos com a CSS.
+
+Para gerar um parágrafo aleatório para testes, usamos o Lorem Ipsum:
+    Só digitar a palavra lorem dentro da tag de parágrafo <p></p>
+        ex: <p>lorem</p>
+

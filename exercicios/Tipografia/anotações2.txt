@@ -1,0 +1,55 @@
+Tipo é o tipo da letra
+
+A letra x é a primeira letra criada em qualquer fonte, pois ela define a altura básica de todas as letras (mínuscula)
+
+A altura das maíusculas é definida mais livremente
+
+A altura ascendente é a altura do vazamento das minúsculas para cima
+
+A altura descendente é a altura do vazamento das minúsculas para baixo
+
+A altura do corpo é a altura de todas essas outras juntas
+
+Serifa é a anatomia de letra que é identificada pelas pontas das letras, o papel dela é facilitar a leitura do cerébro.
+
+As letras possuem haste (as colunas)
+
+Uma coluna deitada que une duas hastes ou arcos é chamada de filete
+
+Arco são as curvas das letras
+
+Esporão é usado na letra para não parecer que a letra vai cair (esporão parece um salto de mulher)
+
+Só algumas letras tem esporão
+
+Um terminal é parecido com um filete, porém ele só fixa em uma haste, a outra parte fica solta
+
+Muito parecido com o terminal, o braço também tem as mesmas características, porém ele está sempre inclinado para cima.
+
+Um pé é a base que segura a fonte
+
+O s é a única fonte que tem a anatomia de curva
+
+2 arcos juntos é chamado de barriga
+
+Os buracos dentro da letra, que são completamentes fechados são chamados de olho
+
+Mas raramente existe uma parte de cima avulsa que se chama orelha
+
+A parte da altura descendente da fonte é chamada de cauda
+
+Uma letra é chamada de glifo
+
+Fonte é um conjunto de glifos
+
+Fontes mais simples tem menos elementos(visuais)
+
+Família tipo gráfica é uma mesma fonte com elementos visuais diferentes (negrito, norma, light, etc)
+
+Categorias das Fontes:
+	Serifadas -> Fontes que tem serifa, indicado usar para papel
+	Sans-serif -> Fontes que não tem serifa, indicado para sites
+OBS-> Usar sempre letras contrastantes do fundo (o indicado é sempre letra preta e fundo branco para conteúdos grandes)
+	Monoespaçadas -> Todos os glifos tem o mesmo espaçamento, pode ser sans-serif ou serifadas
+	Handwriting -> Tenta simular a caligrafia a mão
+	Display -> Não tem nehuma das características das de cima, são fontes comemorativas, sem regras nenhuma.

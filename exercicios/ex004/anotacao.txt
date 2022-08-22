@@ -1,0 +1,15 @@
+Favicon: Ícone da aba de janelas/favoritos (do navegador)
+
+Primeiro passo: Adicionar TAG <link> (link:favicon)
+
+Segundo passo: Alterar o valor do parâmetro href para o nome do ícone que deve estar dentro da mesma pasta do arquivo html
+    recomenda-se usar sempre o formato ico para o ícone
+    recomenda-se alterar o nome do ícone para "favicon.ico"
+
+Site para Favicon prontos já em formato ico:
+    IconArchive
+Site para criar um Favicon do Zero:
+    favicon.cc
+Site para transformar TEXTO em Favicon; PNG em Favicon; Emoji em Favicon
+    favicon.io 
+

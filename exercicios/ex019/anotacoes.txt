@@ -1,0 +1,40 @@
+Para personalizar uma tag específica sem usar CSS misturado com HTML usamos o PARÂMETRO id
+    id="nome qualquer"
+        Esse parâmetro é inserido dentro da abertura da tag HTML/ e no style ele é completado da seguinte forma:
+    nome da tag HTML + # + o nome qualquer + {seletor} OBS -> O NOME DA TAG NÃO É NECESSÁRIO/OBRIGATÓRIO, podendo começar do #
+        ex:
+    h1#nomequalquer ou #nomequalquer{
+
+    }
+
+    Assim tudo que estiver dentro do seletor só vai alterar na tag especificada
+
+    OBS -> id em HTML é a mesma coisa que # em CSS
+           class em HTML é a mesma coisa que . em CSS
+
+    OBS -> NÃO POSSO USAR UM ID IGUAL NO MESMO DOCUMENTO
+           ex: Não posso ter 2 id= "principal";
+           
+           
+No caso de mais de uma tag com a mesma personalidade eu uso o PARÂMETRO class
+    class="nome qualquer"  OBS -> usar um nome coerente ao texto, não ao CSS.
+        Esse parâmetro tem a mesma função que o id, no entanto pode ser usado em mais de uma tag com o mesmo valor/nome
+
+        Esse parâmetro é inserido dentro da abertura da tag HTML/ e no style(css) ele é completado da seguinte forma:
+            . + nome qualquer + {seletor}
+                ex:
+                    .nome {
+
+                    }
+
+    IMPORTANTE: Em HTML eu consigo usar mais de uma class na mesma tag (em css eu faço separadamente):
+        Basta usar somente 1 parâmetro class, com 2 valores (um ao lado do outro dentro do mesmo "" sem vírgula)
+            ex:
+                class="nome1 nome2"
+
+    Eu também consigo adicionar um id e uma class na mesma tag:
+        ex:
+            id="principal" class="destaque"
+    
+    OBS -> Se o id e a class tiverem algum parâmetro igual, o valor do parâmetro do id prevalece.
+
