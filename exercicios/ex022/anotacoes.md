@@ -17,4 +17,4 @@ Propriedade:
         repeat-y -> ele repete a imagem somente verticalmente até o final de uma coluna somente
         OBS -> Por padrão irá sempre começar com o repeat, e sempre pelo canto superior esquerdo.
 
-    
+        
