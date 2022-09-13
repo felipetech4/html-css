@@ -17,4 +17,17 @@ Propriedade:
         repeat-y -> ele repete a imagem somente verticalmente até o final de uma coluna somente
         OBS -> Por padrão irá sempre começar com o repeat, e sempre pelo canto superior esquerdo.
 
-        
+    background-position -> define a posição do fundo da imagem, aceita 9 valores: 
+        esquerda em cima / left top; 
+        esquerda no centro / left center;
+        esquerda em baixo / left bottom;
+        centralizado em cima / center top;
+        centro no centro / center center;
+        centro em baixo / center bottom;
+        direita em cima / right top;
+        direita no centro / right center;
+        direita em baixo / right bottom;
+
+IMPORTANTE -> Quando o navegador não aceitar o comando do background-position, observar a altura do seletor. Normalmente é necessario utilizar uma declaração de height com um valor de altura em vh (tamanho da viewport (tela)) ex:
+    height: 100vh; -> esta declarando que vai ocupar 98% da tela (viewport).
+
