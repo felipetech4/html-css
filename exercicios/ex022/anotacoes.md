@@ -29,5 +29,18 @@ Propriedade:
         direita em baixo / right bottom;
 
 IMPORTANTE -> Quando o navegador não aceitar o comando do background-position, observar a altura do seletor. Normalmente é necessario utilizar uma declaração de height com um valor de altura em vh (tamanho da viewport (tela)) ex:
-    height: 100vh; -> esta declarando que vai ocupar 98% da tela (viewport).
+    height: 100vh; -> esta declarando que vai ocupar 98% da tela (viewport). -> ESSA DECLARAÇÃO VAI SER NECESSÁRIA NA MAIORIA DAS VEZES.
+    Depois dessa declaração eu posso acrescentar um:
+        background-repeat: no-repeat;
+        background-size: 100%;
+    Isso vai fazer com que a imagem de fundo fique ocupando 100% da tela de qualquer dispositivo e com a imagem única, sem repetição (para essa declaração funcionar é necessária a declaração de ''height: 100vh;'' também).
+    OBS -> No entanto essa tecnica de deixar o fundo totalmente preenchido sem repetições, não é a mais correta, pois ela deixa a imagem distorcida.
+
+    Para isso existe uma outra tecnica: manter a declaração 'height: 100vh;', remover a declaração 'background-repeat: no-repeat; (essa parte de remover é opcional)' e alterar somente o valor da declaração 'background-size: 100%;' para um novo valor:
+
+        background-size: cover;
+
+    OBS -> É necessário escolher a posição do fundo com a propriedade 'background-position;'.
+
+    OBS -> Essa tecnica é melhor do que a primeira, porém nenhuma das duas são ideais, pois elas não preenchem o fundo de sites mais longos com apenas uma imagem sem repetição.
 
