@@ -58,3 +58,6 @@ Para todas essas propriedades existe uma shorthand na seguinte ordem:
 
     background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
     background-size: cover;
+
+AGORA UM CONTEÚDO MUITO IMPORTANTE: CENTRALIZAR VERTICALMENTE (o margin: auto; faz a centralização horizontal)
+    Para centralizar verticalmente, é sempre necessário um container e um conteúdo (pode ser uma div com o id chamado container e outra div aninhada com outro id chamado conteudo)
