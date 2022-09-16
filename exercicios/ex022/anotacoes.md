@@ -44,3 +44,11 @@ IMPORTANTE -> Quando o navegador não aceitar o comando do background-position, 
 
     OBS -> Essa tecnica é melhor do que a primeira, porém nenhuma das duas são ideais, pois elas não preenchem o fundo de sites mais longos com apenas uma imagem sem repetição.
 
+    Para deixar o fundo de tela fixo eu uso uma declaração:
+        background-attachment: fixed;
+
+        Esse background-attachment já vem com um padrão pre configurado:
+            background-attachment: scroll; -> Por esse motivo o fundo rola junto com o conteudo por padrão.
+
+    OBS -> O background-attachment: fixed; e o background-size: cover; fazem uma bela dupla!
+
