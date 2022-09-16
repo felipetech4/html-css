@@ -74,5 +74,5 @@ AGORA UM CONTEÚDO MUITO IMPORTANTE: CENTRALIZAR VERTICALMENTE (o margin: auto; 
             -> top: 50%; (a distancia de cima do seletor #conteudo para a borda de cima do seletor que esta por fora/#container)
                 OBS -> essas duas propriedades também aceitam valores em px;
                 OBS -> Nesse caso de valores em 50%, a div aninhada vai ficar centralizada, porém o que vai estar exatamente no centro será o canto superior esquerdo dessa div, pois se eu observar é exatamente o que eu coloquei, o left e o top em 50% da div container.
-
-                
+                Para resolver esse problema e deixar a div exatamente centralizada, eu uso mais uma declaração:
+            -> transform: translate(-50% -50%); (o transform me permite mexer na caixa/box, aplicanto alguma transformação nela / o translate movimenta a caixa em 4 posicoes: (parei no minuto 9:26))
