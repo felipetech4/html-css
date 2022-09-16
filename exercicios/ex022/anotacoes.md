@@ -52,3 +52,9 @@ IMPORTANTE -> Quando o navegador não aceitar o comando do background-position, 
 
     OBS -> O background-attachment: fixed; e o background-size: cover; fazem uma bela dupla!
 
+Para todas essas propriedades existe uma shorthand na seguinte ordem:
+    color > image > position > repeat > attachment
+    [size] OBS -> o size ainda não está aplicável na shorthand, por isso vou sempre usar background-size separado da shorthand, como no exemplo abaixo:
+
+    background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+    background-size: cover;
