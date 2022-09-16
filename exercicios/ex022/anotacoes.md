@@ -60,4 +60,14 @@ Para todas essas propriedades existe uma shorthand na seguinte ordem:
     background-size: cover;
 
 AGORA UM CONTEÚDO MUITO IMPORTANTE: CENTRALIZAR VERTICALMENTE (o margin: auto; faz a centralização horizontal)
-    Para centralizar verticalmente, é sempre necessário um container e um conteúdo (pode ser uma div com o id chamado container e outra div aninhada com outro id chamado conteudo)
+    Para centralizar verticalmente, é sempre necessário seguir alguns passos:
+        -> Fazer 2 divs aninhadas
+        -> Uma div recebe um id chamado container
+        -> A outra div recebe um id chamado conteudo
+        -> criar os seletores dessas divs em style (#container e #conteudo)
+        -> no seletor container(container vai ser sempre o bloco que estiver fora):
+            -> position: relative; (essa declaracao pode ser omitida pois ja vem por padrão)
+            -> 
+        -> no seletor conteudo (conteudo sempre vai ser a div que está aninhada/dentro da outra div):
+            -> position: absolute;
+            -> 
