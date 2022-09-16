@@ -69,5 +69,10 @@ AGORA UM CONTEÚDO MUITO IMPORTANTE: CENTRALIZAR VERTICALMENTE (o margin: auto; 
             -> position: relative; (essa declaracao pode ser omitida pois ja vem por padrão)
             -> 
         -> no seletor conteudo (conteudo sempre vai ser a div que está aninhada/dentro da outra div):
-            -> position: absolute;
-            -> 
+            -> position: absolute; (quando eu coloco esse posicionamento absoluto eu ganho autoridade para editar duas propriedades muito importante: left e top)
+            -> left: 50%; (a distancia lado esquerdo do seletor #conteudo para a borda esquerda do seletor que esta por fora/#container)
+            -> top: 50%; (a distancia de cima do seletor #conteudo para a borda de cima do seletor que esta por fora/#container)
+                OBS -> essas duas propriedades também aceitam valores em px;
+                OBS -> Nesse caso de valores em 50%, a div aninhada vai ficar centralizada, porém o que vai estar exatamente no centro será o canto superior esquerdo dessa div, pois se eu observar é exatamente o que eu coloquei, o left e o top em 50% da div container.
+
+                
