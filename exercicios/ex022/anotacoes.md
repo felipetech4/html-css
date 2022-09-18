@@ -66,9 +66,14 @@ AGORA UM CONTEÚDO MUITO IMPORTANTE: CENTRALIZAR VERTICALMENTE (o margin: auto; 
         -> A outra div recebe um id chamado conteudo
         -> criar os seletores dessas divs em style (#container e #conteudo)
         -> no seletor container(container vai ser sempre o bloco que estiver fora):
+            -> height: 100vh; (ou qualquer outro tamanho em vh)
+            -> uma cor para a caixa
             -> position: relative; (essa declaracao pode ser omitida pois ja vem por padrão)
-            -> 
+
         -> no seletor conteudo (conteudo sempre vai ser a div que está aninhada/dentro da outra div):
+            -> height: 50%; (ou qualquer outro valor em px ou %)
+            -> width: 50%; (ou qualquer outro valor em px ou %)
+            -> uma cor para a caixa
             -> position: absolute; (quando eu coloco esse posicionamento absoluto eu ganho autoridade para editar duas propriedades muito importante: left e top)
             -> left: 50%; (a distancia lado esquerdo do seletor #conteudo para a borda esquerda do seletor que esta por fora/#container)
             -> top: 50%; (a distancia de cima do seletor #conteudo para a borda de cima do seletor que esta por fora/#container)
@@ -76,4 +81,4 @@ AGORA UM CONTEÚDO MUITO IMPORTANTE: CENTRALIZAR VERTICALMENTE (o margin: auto; 
                 OBS -> Nesse caso de valores em 50%, a div aninhada vai ficar centralizada, porém o que vai estar exatamente no centro será o canto superior esquerdo dessa div, pois se eu observar é exatamente o que eu coloquei, o left e o top em 50% da div container.
                 Para resolver esse problema e deixar a div exatamente centralizada, eu uso mais uma declaração:
             -> transform: translate(-50% -50%); (o transform me permite mexer na caixa/box, aplicanto alguma transformação nela / o translate movimenta a caixa em 2 posicoes: esquerda/direita (com o sinal de - e um valor em px ou % ele vai para esquerda / com um valor "sem sinal ou com sinal +" em px ou % ele vai para direita) cima/baixo (com o sinal de - e um valor em px ou % ele vai para cima / com um valor "sem sinal ou com sinal +" em px ou % ele vai para baixo)
-            ->
+
