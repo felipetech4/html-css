@@ -16,3 +16,11 @@ Propriedade CSS:
         2 valores mais usados:
             separate; -> deixa as bordas separadas uma das outras em ralação a outras caixas
             collapse; -> deixa as bordas unidas uma nas outras em ralação a outras caixas
+
+ALINHAMENTO:
+    Propriedade CSS:
+        text-align: left/center/right;   -> para alinhar um elemento da tabela de forma horizontal
+
+    Propriedade CSS:
+        vertical-align: top/middle/bottom;  -> para alinhar células de uma tabela de forma vertical
+
