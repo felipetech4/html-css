@@ -24,3 +24,25 @@ ALINHAMENTO:
     Propriedade CSS:
         vertical-align: top/middle/bottom;  -> para alinhar células de uma tabela de forma vertical
 
+ANATOMIA PARA TABELAS GRANDES:
+    Primeiro:
+        Tag: <table></table>
+            Significa que será usado uma tabela dentro dessa tag. 
+
+    Segundo:         
+        Tag: <thead></thead>
+            Significa que essa parte é a cabeça da tabela.
+            É usado dentro do table
+            Aceita as tags <tr> <td> e <th>
+
+    Terceiro:
+        Tag: <tbody></tbody>
+            Siginifica que essa parte é o corpo da tabela.
+            É usado dentro do table
+            Aceita as tags <tr> <td> e <th>
+
+    Quarto:
+        Tag: <tfoot></tfoot>
+            Significa que essa parte é o pé da tabela
+            É usado dentro do table
+            Aceita as tags <tr> <td> e <th>
