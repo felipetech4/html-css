@@ -65,3 +65,16 @@ LARGURA DE COLUNAS:
         width: px;
     Essa declaração é usada normalmente com style inline/estilo pontual (aplicando o estilo dentro da tag específica)
 
+Pseudo Classe CSS:
+    :nth-child() 
+        -> É usado para definir uma sequência de estilo nas linhas da tabela
+        -> Dentro dos parenteses eu escolho a opção de sequências a ser seguida, alguns dos possiveis valores de dentro dos parenteses são:
+            :nth-child(odd) -> Todas as linhas de número ÍMPAR serão selecionadas
+            :nth-child(even) -> Todas as linhas de número PAR serão selecionadas
+            :nth-child(2n-1) -> Causa o mesmo resultado do odd
+            :nth-child(2n) -> Causa o mesmo resultado do even
+            :nth-child(5n) -> Vai selecionar uma a cada 5 linhas OBS -> Esse exemplo foi usado com o número 5, mas posso usar qualquer outra valor e as linhas tabela serão selecionadas de acordo com esse valor.
+
+        -> Depois de escolher a ordem da sequência, basta abrir os colchetes do seletor e personalizá-lo.
+
+
