@@ -35,7 +35,15 @@
         }
 
         thead, tfoot {
-            background-color: rgba(176, 196, 222, 0.355);
+            background-color: rgba(148, 172, 203, 0.501);
+        }
+
+        tbody > tr:nth-child(odd) { /* 2n-1 */
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(even){ /* 2n */
+            background-color: rgba(144, 169, 201, 0.217);
         }
 
         .num {
