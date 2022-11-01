@@ -77,4 +77,16 @@ Pseudo Classe CSS:
 
         -> Depois de escolher a ordem da sequência, basta abrir os colchetes do seletor e personalizá-lo.
 
+Fixar Cabeçalho em tabelas grandes:
+    Para deixar o cabeçalho fixado ao rolar a tela, eu tenho que seguir 2 passos:
+        1 - No seletor table, adicionar:
+            position: relative;
+
+        2 - Criar um seletor:
+             thead > tr > th {
+                    position: sticky;
+                    top: -1px;
+
+                            }
+
 
