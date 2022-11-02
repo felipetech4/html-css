@@ -97,3 +97,14 @@ Mesclagem de células HTML:
             colspan="aqui eu coloco o numero de quantidade de celulas a serem mescladas"
         Para colunas eu uso dentro da tag da célula desejada:
             rowspan="aqui eu coloco o numero de quantidade de celulas a serem mescladas"
+
+Mais sobre ESCOPO:
+    Quando eu uso os títulos de tabela (th) eu preciso adcionar uma semântica em cada th
+        No caso de título de uma coluna, se usa:
+            <th scope="col"></th>
+        Caso haja mais de uma coluna para o mesmo título , se usa:
+            <th scope="colgroup"></th>
+        No caso de título de uma linha, se usa:
+            <th scope="row"></th>
+        Caso haja mais de uma linha para o mesmo título , se usa:
+            <th scope="rowgroup"></th>
