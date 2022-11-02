@@ -13,7 +13,7 @@ Tag: <td></td>
 
 Tag: <th></th>
     Significa "CABEÇALHO DA TABELA" é usada para adicionar o título da coluna ou da linha.
-    É EXTREMAMENTE NECESSÁRIO USAR ATRIBUTOS ESPECÍFICOS NESSA TAG:
+    É EXTREMAMENTE NECESSÁRIO USAR ESCOPOS ESPECÍFICOS NA TAG TH:
         No caso de título da coluna, se usa:
             <th scope="col"></th>
         No caso de título da linha, se usa:
