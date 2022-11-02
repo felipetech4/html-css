@@ -90,3 +90,10 @@ Fixar Cabeçalho em tabelas grandes:
                             }
 
 
+Mesclagem de células HTML:
+    Para fazer uma mesclagem é necessário expandir a célula desejada
+    Para expandir uma célular eu tenho 2 formas diferentes:
+        Para linhas eu uso dentro da tag da célula desejada:
+            colspan="aqui eu coloco o numero de quantidade de celulas a serem mescladas"
+        Para colunas eu uso dentro da tag da célula desejada:
+            rowspan="aqui eu coloco o numero de quantidade de celulas a serem mescladas"
