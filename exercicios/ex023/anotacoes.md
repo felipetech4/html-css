@@ -108,3 +108,12 @@ Mais sobre ESCOPO:
             <th scope="row"></th>
         Caso haja mais de uma linha para o mesmo título , se usa:
             <th scope="rowgroup"></th>
+
+Para personalizar uma coluna inteira, eu uso uma tag específica:
+    <colgroup>
+        <col class="nome1">   OBS -> col não tem fechamento
+        <col class="nome2">
+    </colgroup>
+        OBS -> Essa tag é usada dentro da tag TABLE e eu posso usar quantas col for necessário
+            Depois é só criar o seletor em style e dar o estilo desejado
+
