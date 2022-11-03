@@ -119,3 +119,12 @@ Para personalizar uma coluna inteira, eu uso uma tag específica:
         OBS -> Essa tag é usada dentro da tag TABLE e eu posso usar quantas col for necessário
             Depois é só criar o seletor em style e dar o estilo desejado
 
+Tabela Responsiva:
+    Para deixar uma tabela mais responsiva basta:
+        -> Envelopar toda a table em uma div
+        -> Colocar um id ou class na div
+        -> Adcionar uma declaração no seletor da div {
+            overflow: auto;
+        }
+            OBS -> também posso usar o overflow-y e o overflow-x
+
