@@ -112,7 +112,9 @@ Mais sobre ESCOPO:
 Para personalizar uma coluna inteira, eu uso uma tag específica:
     <colgroup>
         <col class="nome1">   OBS -> col não tem fechamento
-        <col class="nome2">
+        <col class="nome2">   OBS-> cada col é uma coluna, respectivamente em ordem
+        <col class="cgroup" span="2"> 
+        OBS -> essa última col ta personalizando 2 colunas consecutivas, a 3 e a 4
     </colgroup>
         OBS -> Essa tag é usada dentro da tag TABLE e eu posso usar quantas col for necessário
             Depois é só criar o seletor em style e dar o estilo desejado
