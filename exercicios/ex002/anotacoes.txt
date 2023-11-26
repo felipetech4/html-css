@@ -17,7 +17,7 @@ Símbolos:
     &uarr;
 
 Comentário:
-<!-->
+<!-- -->
 
 Emoji:
 &#x + o código do emoji (emojipedia)
