@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relembrando Listas</title>
+</head>
+<body>
+    <h1>Testando Listas Ordenadas</h1>
+    <hr>
+    <h2>Lista de compras Ordenada</h2>
+    <p>
+        <ins>Para listas <strong>ordenadas</strong> é importante usar os parâmetros <strong>type e start</strong> dentro da tag "ol" pois eles ajudam a localizar os dados em casos de listas aninhadas.</ins>
+    </p>
+    <ol type="A"> <!-- Type indica o tipo da marcação para ordenação da lista -->
+        <li>Hortifruti</li>
+        <ol type="I"> <!-- posso aninhar listas (elas ficam indentadas na tela do usuário) -->
+            <li>Legumes e verduras</li> <!-- Cada li é uma linha na lista -->
+            <ol type="1" start="1"> <!-- Start indica o ínicio da posição na lista -->
+                <li>Beterraba</li>
+                <li>Chuchu</li>
+                <li>Abóbora</li>
+                <li>Cebola</li>
+                <li>Batata</li>
+                <li>Tomate</li>
+                <li>Couve Flor</li>
+            </ol>
+            <li>Frutas</li>
+            <ol type="1" start="8">
+                <li>Goiaba</li>
+                <li>Banana</li>
+                <li>Morango</li>
+                <li>Kwui</li>
+            </ol>
+        </ol>
+        <li>Açougue</li>
+        <ol type="I">
+            <li>Carne</li>
+            <ol type="1">
+                <li>5kg de Carne moída</li>
+                <li>3kg de Peito de boi</li>
+            </ol>
+            <li>Frango</li>
+            <ol type="1" start="3">
+                <li>3kg de Peito de frango</li>
+                <li>5kg pra Strogonoff</li>
+            </ol>
+        </ol>
+    </ol>
+</body>
+</html>

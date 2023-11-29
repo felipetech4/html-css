@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relembrando Listas</title>
+</head>
+<body>
+    <h1>Testando Listas Não Ordenadas</h1>
+    <hr>
+    <h2>Lista de compras</h2>
+    <!-- Posso definir os tipos de marcação entre circle, disc e square -->
+    <ul type="circle"> <!-- bolinha sem preenchimento -->
+        <li>Hortifruti</li> <!-- Cada li indica um item na lista-->
+        <ul type="disc"> <!-- Posso aninhar listas --> 
+            <li>Legumes e verduras</li>
+            <ul type="square">
+                <li>Beterraba</li>
+                <li>Chuchu</li>
+                <li>Abóbora</li>
+                <li>Cebola</li>
+                <li>Batata</li>
+                <li>Tomate</li>
+                <li>Couve Flor</li>
+            </ul>
+            <li>Frutas</li>
+            <ul>
+                <li>Goiaba</li>
+                <li>Banana</li>
+                <li>Morango</li>
+                <li>Kwui</li>
+            </ul>
+        </ul>
+        <li>Açougue</li>
+        <ul type="disc"> <!-- bolinha preta preenchida (padrão) -->
+            <li>Carne</li>
+            <ul type="square"> <!-- quadradinho preenchido -->
+                <li>5kg de Carne moída</li>
+                <li>3kg de Peito de boi</li>
+            </ul>
+            <li>Frango</li>
+            <ul>
+                <li>3kg de Peito de frango</li>
+                <li>5kg pra Strogonoff</li>
+            </ul>
+        </ul>
+    </ul>
+</body>
+</html>
